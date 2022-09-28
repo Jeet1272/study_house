@@ -1,6 +1,6 @@
 .person-details {
     background-color: aliceblue;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
 }
