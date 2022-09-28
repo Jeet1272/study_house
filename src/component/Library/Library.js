@@ -25,7 +25,7 @@ const Library = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='cart-body'>
                 <Cart></Cart>
             </div>
         </div>

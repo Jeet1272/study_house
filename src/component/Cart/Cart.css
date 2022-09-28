@@ -1,0 +1,14 @@
+.person-details {
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.study-time {
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}

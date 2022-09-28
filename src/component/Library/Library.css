@@ -11,10 +11,16 @@
 
 .icon {
     color: mediumblue;
+    text-align: center;
 }
 
 .subject-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
+}
+
+.cart-body {
+    background-color: wheat;
+    padding: 30px;
 }

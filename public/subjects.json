@@ -2,63 +2,54 @@
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "PHYSICS",
-        "details": "The Science of the Universe and Everything In It",
         "time": "50m",
         "img": "./image/physics.jpg"
     },
     {
         "id": "124e14b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "CHEMISTRY",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/chemistry.jpg"
     },
     {
         "id": "124e15b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "BI0L0GY",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/biology.png"
     },
     {
         "id": "124e16b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "MATHEMATICS",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/mathematics.jpg"
     },
     {
         "id": "124e17b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "ENGLISH",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/english.jpg"
     },
     {
         "id": "124e18b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "BANGLA",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/bangla.jpg"
     },
     {
         "id": "124e19b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "SOCIAL SCIENCE",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/social-science.png"
     },
     {
         "id": "124e20b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "RELIGION BOOKS",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/religion.jpg"
     },
     {
         "id": "124e21b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "GENERAL KNOWLEDGE",
-        "details": "Addidas",
         "time": "50m",
         "img": "./image/general-knowledge.jpg"
     }

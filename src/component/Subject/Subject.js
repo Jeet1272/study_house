@@ -8,7 +8,7 @@ const Subject = (props) => {
             <img src={img} alt="" />
             <h3>{name}</h3>
             <h5>Time: {time}</h5>
-            <button>
+            <button className='button-add'>
                 <p>Add to list</p>
             </button>
         </div>
