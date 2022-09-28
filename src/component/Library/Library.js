@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBook } from '@fortawesome/free-solid-svg-icons'
 import Cart from '../Cart/Cart';
 import Subject from '../Subject/Subject';
 import './Library.css'
@@ -13,12 +15,12 @@ const Library = () => {
     }, [])
     return (
         <div className='library-body'>
-            <div>
-                <h1>STUDY-HOUSE</h1>
-                <h4>Select today's subject</h4>
+            <div className='library-container'>
+                <h1 className='icon'><FontAwesomeIcon icon={faBook}></FontAwesomeIcon> STUDY-HOUSE</h1>
+                <h3>Select today's subject</h3>
                 <div className='subject-container'>
                     {
-                        subjects.map(subject => <Subject subject={subject}></Subject>)
+                        subjects.map(subject => <Subject subject={subject} key={subject.id}></Subject>)
                     }
                 </div>
             </div>
