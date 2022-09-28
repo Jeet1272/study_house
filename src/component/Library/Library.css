@@ -1,0 +1,11 @@
+.library-body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+
+.subject-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
