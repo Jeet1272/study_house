@@ -1,5 +1,5 @@
 .library-body {
-    background-color: tomato;
+    background-color: rgb(159, 77, 63);
     display: grid;
     grid-template-columns: 3fr 1fr;
 

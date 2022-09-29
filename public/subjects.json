@@ -2,55 +2,55 @@
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "PHYSICS",
-        "time": "50m",
+        "time": 50,
         "img": "./image/physics.jpg"
     },
     {
         "id": "124e14b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "CHEMISTRY",
-        "time": "50m",
+        "time": 50,
         "img": "./image/chemistry.jpg"
     },
     {
         "id": "124e15b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "BI0L0GY",
-        "time": "50m",
+        "time": 50,
         "img": "./image/biology.png"
     },
     {
         "id": "124e16b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "MATHEMATICS",
-        "time": "50m",
+        "time": 50,
         "img": "./image/mathematics.jpg"
     },
     {
         "id": "124e17b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "ENGLISH",
-        "time": "50m",
+        "time": 50,
         "img": "./image/english.jpg"
     },
     {
         "id": "124e18b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "BANGLA",
-        "time": "50m",
+        "time": 50,
         "img": "./image/bangla.jpg"
     },
     {
         "id": "124e19b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "SOCIAL SCIENCE",
-        "time": "50m",
+        "time": 50,
         "img": "./image/social-science.png"
     },
     {
         "id": "124e20b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "RELIGION BOOKS",
-        "time": "50m",
+        "time": 50,
         "img": "./image/religion.jpg"
     },
     {
         "id": "124e21b9-2d54-4b2f-a74d-a77b362d6ead",
         "name": "GENERAL KNOWLEDGE",
-        "time": "50m",
+        "time": 50,
         "img": "./image/general-knowledge.jpg"
     }
 ]

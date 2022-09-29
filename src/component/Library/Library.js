@@ -7,12 +7,20 @@ import './Library.css'
 
 const Library = () => {
     const [subjects, setSubjects] = useState([])
+    const [cart, setCart] = useState([])
 
     useEffect(() => {
         fetch('subjects.json')
             .then(res => res.json())
             .then(data => setSubjects(data))
     }, [])
+
+    const showTimeOnCart = (subject) => {
+        console.log(subject)
+        const newCart = [...cart, subject]
+        setCart(newCart)
+    }
+
     return (
         <div className='library-body'>
             <div className='library-container'>
@@ -20,13 +28,17 @@ const Library = () => {
                 <h3>Select today's subject</h3>
                 <div className='subject-container'>
                     {
-                        subjects.map(subject => <Subject subject={subject} key={subject.id}></Subject>)
+                        subjects.map(subject => <Subject
+                            subject={subject}
+                            key={subject.id}
+                            showTimeOnCart={showTimeOnCart}
+                        ></Subject>)
                     }
                 </div>
             </div>
 
             <div className='cart-body'>
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

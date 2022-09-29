@@ -1,10 +1,14 @@
 import React from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = ({ cart }) => {
+    let totalTime = 0;
+    for (const subject of cart) {
+        totalTime = totalTime + subject.time
+    }
     return (
         <div>
-            <img src="./me.jpg" alt="" />
+            <img src="" alt="" />
             <div>
                 <h3>Bishwajeet Sarkar</h3>
                 <p>Dhaka, Bangladesh</p>
@@ -25,12 +29,16 @@ const Cart = () => {
             </div>
             <h4>Add A Break</h4>
             <div className='study-time'>
-                <button>10m</button><button>20m</button><button>30m</button><button>40m</button><button>50m</button>
+                <button>10m</button>
+                <button>20m</button>
+                <button>30m</button>
+                <button>40m</button>
+                <button>50m</button>
             </div>
             <h4>Study Details</h4>
             <div className='study-time'>
                 <h5>Study time</h5>
-                <h5>0</h5>
+                <h5>{totalTime} m</h5>
             </div>
             <div className='study-time'>
                 <h5>Break time</h5>
