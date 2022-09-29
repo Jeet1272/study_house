@@ -1,8 +1,9 @@
 import React from 'react';
+import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='blog'>
             <h3>How React Work?</h3>
             <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering our code.</p>
             <h3>Difference between props and state:</h3>
