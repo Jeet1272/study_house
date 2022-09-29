@@ -42,7 +42,7 @@ const Cart = ({ cart }) => {
             </div>
             <div className='study-time'>
                 <h5>Break time</h5>
-                <h5>0</h5>
+                <h5></h5>
             </div>
             <button className='button-add'>
                 <p>Activity Completed</p>

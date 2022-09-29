@@ -16,7 +16,6 @@ const Library = () => {
     }, [])
 
     const showTimeOnCart = (subject) => {
-        console.log(subject)
         const newCart = [...cart, subject]
         setCart(newCart)
     }
