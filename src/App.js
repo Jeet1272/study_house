@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Library from './component/Library/Library';
+import Blog from './component/Blog/Blog';
 
 function App() {
   return (
     <div>
       <Library></Library>
+      <Blog></Blog>
     </div>
   );
 }
