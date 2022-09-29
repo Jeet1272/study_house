@@ -12,3 +12,8 @@
     justify-content: space-around;
     margin-bottom: 20px;
 }
+
+.btn-time {
+    height: 30px;
+    width: 50px;
+}

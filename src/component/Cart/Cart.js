@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 
 const Cart = ({ cart }) => {
+
     let totalTime = 0;
     for (const subject of cart) {
         totalTime = totalTime + subject.time
     }
+    const breakTimes = [10, 20, 30, 40, 50]
+    const [time, setTime] = useState([])
+
+
+
     return (
         <div>
             <img src="" alt="" />
@@ -29,11 +35,14 @@ const Cart = ({ cart }) => {
             </div>
             <h4>Add A Break</h4>
             <div className='study-time'>
-                <button>10m</button>
-                <button>20m</button>
-                <button>30m</button>
-                <button>40m</button>
-                <button>50m</button>
+                {
+                    breakTimes.map(time => (
+                        <button className='btn-time'
+                            type='button'
+                            onClick={() => setTime(time)}>
+                        </button>
+                    ))
+                }
             </div>
             <h4>Study Details</h4>
             <div className='study-time'>
@@ -42,7 +51,7 @@ const Cart = ({ cart }) => {
             </div>
             <div className='study-time'>
                 <h5>Break time</h5>
-                <h5></h5>
+                <h5>{time} m</h5>
             </div>
             <button className='button-add'>
                 <p>Activity Completed</p>
